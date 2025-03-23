@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+button,img{
+    cursor: pointer;
+}
+
+header button{
+    background-color: rgb(75, 47, 25);
+    border: 5px solid rgb(253, 247, 247);
+    border-radius: 30px;
+}
+header section:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+header section:nth-of-type(2) {
+   margin-top: 30px;
+}
+
+header h1{
+    display: inline-block;
+    text-align: center;
+    border: 3px solid rgb(75, 47, 25);
+    border-radius: 100px;
+    padding: 10px 35px;
+    color: rgb(75, 47, 25);
+    background-color:  rgb(247, 219, 236);
+    font-size: 2.5em;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+main section{
+    display: block;
+    margin: 20px 30px;
+}
+main section details{
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    width: 500px;
+}
+main section summary {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid rgb(75, 47, 25);
+    border-radius: 100px;
+    padding: 10px 10px;
+    color: rgb(75, 47, 25);
+    background-color:  rgb(247, 219, 236);
+    font-size: 1.5em;
+}
+summary::after {
+    content: "➕"; 
+    font-weight: bold;
+    margin-left: 10px;
+    border: 3px solid rgb(75, 47, 25);
+    border-radius: 50px;
+}
+details[open] summary::after {
+    content: "➖"; 
+}
+main section summary span{
+    text-align: center;
+    font-weight: bold;
+}
+main section p{
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+    margin: 20px 0;
+    border: 3px solid rgb(247, 219, 236);
+    background-color:  rgb(75, 47, 25);
+    color: rgb(254, 248, 251);
+    padding: 15px 15px;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: bottom;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 20px 20px;
+}
+
+footer button{
+    background-color:  rgb(75, 47, 25);
+    color:rgb(247, 219, 236);
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 3px solid rgb(247, 219, 236);
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+body{
+    background-image: url(./La_Juanadería_Imágenes/LJ_Fondo/LJ_Fondo_Con_marco/LJ_Fondo_Con_marco_Otros.png);
+    background-repeat: no-repeat;
+    background-size: 100% 137%;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+

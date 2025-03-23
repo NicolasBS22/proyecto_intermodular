@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0; 
+   
+}
+body{
+    margin: 5px auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
+
+header > section:nth-of-type(1){
+    position: absolute;
+    right: 10px;
+    top: 5px; 
+} 
+header > section:nth-of-type(1) button{
+    background-color: rgb(75, 47, 25);
+    border: 5px solid rgb(253, 247, 247);
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+header > section:nth-of-type(2){
+    border: 3px solid rgb(75, 47, 25);
+    border-radius: 100px;
+    padding: 10px 75px;
+    color: rgb(75, 47, 25);
+    background-color:  rgb(247, 219, 236);
+    font-size: 3em;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+main{
+    margin: 40px 70px;
+}
+main > section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    gap: 100px;
+}
+main > section > section{
+    border: 3px solid rgb(75, 47, 25);
+    border-radius: 40px;
+}
+main > section > section:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    flex-grow: 6;
+}
+main > section section:nth-of-type(1) > section:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > section section:nth-of-type(1) > section:nth-of-type(2){
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+main > section > section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+main > section > section:nth-of-type(2) > section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > section > section:nth-of-type(2) img{
+    margin-top: 5px;
+    
+}
+main > section > section:nth-of-type(2) > section > button:last-child{
+    border: 3px solid rgb(75, 47, 25);
+    border-radius: 100px;
+    padding: 10px 50px;
+    color: rgb(75, 47, 25);
+    background-color:  rgb(247, 219, 236);
+    font-weight: bolder;
+    width: auto;
+    margin: 20px 0;
+}
+main > section  > section:nth-of-type(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 6;
+}
+main> section > section:nth-of-type(3) figure{
+    display: block;
+    gap: 5px;
+}
+main> section > section:nth-of-type(3) figure img{
+    border: 2px solid rgb(75, 47, 25);
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+main> section > section:nth-of-type(3) figcaption{
+    text-align: center;
+}
+main > section > section:nth-of-type(3) > section{
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0 10px;  
+}
+main button{
+    background-color:  rgb(75, 47, 25);
+    color:rgb(247, 219, 236);
+    font-size: 1.5em;
+    font-weight: bolder;
+    border: 3px solid rgb(247, 219, 236);
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin: 5px 0;
+    width: 300px;
+    text-align: center;
+}
+footer{
+    display: flex;
+   justify-content: flex-end;
+    margin-right: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 20px 50px;
+}
+
+
+body{
+    background-image: url(./La_Juanadería_Imágenes/LJ_Fondo/LJ_Fondo_Con_marco/LJ_Fondo_Con_marco_Otros.png);
+    background-repeat: no-repeat;
+    background-size: 100% 116%;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+

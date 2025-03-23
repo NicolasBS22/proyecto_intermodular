@@ -1,0 +1,273 @@
+header {
+    display: grid;
+    grid-template-columns: 42% 16% 42%;
+    justify-content: center;
+}
+
+header p {
+    border: 3px solid rgb(75, 47, 25);
+    color:  rgb(75, 47, 25);
+    background-color: rgb(247, 219, 236);
+    border-radius: 100px;
+    padding: 5px 20px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Brush Script';
+    text-align: center;
+}
+
+.titulo {
+    grid-column: 2;
+}
+.perfil{
+    grid-column: 3;
+    display: grid;
+    justify-content: right;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+.izquierda_title {
+    display: grid;
+    justify-content: center;
+
+}
+.izquierda_title p{
+    display: inline-block;
+    border: 4px solid rgb(75, 47, 25);
+    color:  rgb(75, 47, 25);
+    background-color: rgb(247, 219, 236);
+    border-radius: 100px;
+    padding: 5px 20px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Brush Script';
+    text-align: center;
+    
+    
+    
+}
+.izquierda_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    justify-content: center;
+}
+
+.producto {
+    display: grid;
+    justify-content: center;
+}
+.barra_superior{
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 30px;
+}
+
+.barra_superior button img{
+    border: 3px solid rgb(75, 47, 25);
+    background-color:  rgb(247, 219, 236);
+    border-radius: 100px;
+    padding: 2px 2px;
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    height: 20px;
+}
+.barra_superior img{
+    height: 28px;
+    width: 28px;
+    margin-top: 4px;
+}
+.barra_superior button{
+    background-color: white;
+    border-radius: 100px;
+    border: white;
+    padding: 0;
+}
+.producto_img {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+}
+.p_image{
+    justify-self: center;
+}
+.p_text{
+    display: inline-block;
+    text-align: center;
+}
+.p_button {
+    justify-self: center;
+}
+.contenedor_producto{
+    
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 200px;
+    width: 200px;
+}
+.p_image {
+    display: block;
+    height: 150px;
+    width: 150px;
+}
+.centro{
+    align-content: space-between;
+    display: grid;
+    height: 100%;
+}
+.p_button {
+     
+    font-weight: bold;
+    margin-left: 10px;
+    border: 3px solid rgb(75, 47, 25);
+    border-radius: 50px;
+    padding: 4px;
+    border: 3px solid rgb(75, 47, 25);
+    background-color:  rgb(247, 219, 236);
+    border-radius: 1000px;
+}
+
+.p_button p{
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 0px;
+    margin: 0px;
+    border: 3px solid rgb(75, 47, 25);
+    color: rgb(75, 47, 25);
+    background-color:  none;
+    border: 100px;
+}
+
+table {
+    border: 4px solid rgb(75, 47, 25);
+    border-radius: 15px;
+    background-color: rgb(254, 248, 251);
+    height: 400px;
+    margin-top: 35px;
+    border-spacing: 0;
+    
+}
+td {
+    height: 40px;
+    vertical-align: top;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.con_borde{
+    border-right: 4px solid rgb(75, 47, 25);
+}
+
+table p{
+    margin: 0;
+    color: rgb(75, 47, 25);
+    font-size: large;
+    font-weight: 800;
+    
+}
+table a{
+    color: rgb(75, 47, 25);
+    text-decoration: none;
+    font-size: large;
+}
+
+.derecha_title {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+.derecha_title p{
+    display: inline-block;
+    border: 4px solid rgb(75, 47, 25);
+    color:  rgb(75, 47, 25);
+    background-color: rgb(247, 219, 236);
+    border-radius: 100px;
+    padding: 5px 20px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Brush Script';
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+
+.b_pagar {
+    display: flex;
+    grid-column: 2;
+    justify-content: center;
+}
+.b_pagar button{
+    border: 4px solid rgb(247, 219, 236);
+    color:  rgb(247, 219, 236);
+    background-color: rgb(75, 47, 25);
+    border-radius: 100px;
+    font-size: x-large;
+    font-weight: 900;
+    width: 150px;
+}
+.b_pagar a{
+    border: 4px solid rgb(75, 47, 25);
+    color:  rgb(75, 47, 25);
+    background-color: rgb(247, 219, 236);
+    border-radius: 100px;
+    font-size: large;
+    font-weight: 900;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 7px;
+}
+.a_index {
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: right;
+    margin-right: 30px;
+    margin-top: 50px;
+    
+    }
+.a_index img {
+    height: 60px;
+    width: 60px;
+
+
+}
+body{
+    background-image: url(./La_Juanadería_Imágenes/LJ_Fondo/LJ_Fondo_Con_marco/LJ_Fondo_Con_marco_Otros.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.total, .ver_mas {
+    border: 3px solid rgb(75, 47, 25);
+    color:  rgb(75, 47, 25);
+    background-color: rgb(247, 219, 236);
+    border-radius: 100px;
+}
+.quitar {
+    border: none;
+    background-color: none;
+    background: none;;
+}
+.quitar img{
+    height: 15px;
+    width: 15px;
+
+}
+td *{
+    display: inline-block;
+}
+
+
+
